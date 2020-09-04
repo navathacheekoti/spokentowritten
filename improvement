@@ -1,0 +1,51 @@
+I have not have taken care of punctuation rules in the previous part of the exercise.
+Can you design in a way that such rules can be easily added without having to re-test all the previous rule implementations?
+I can design the rules it takes a lot of time to design such kind of things .
+If i added the rules I have to test all without testing I don't know how to add such kind of rules.
+Due to time constrain and I ahve 3 more sections to do thats why I am not adding any code to the punctiation marks and other things In the above code I added for 
+def get_rules():
+    rules = {"Numbers":{
+                        "zero": 0,
+                        "one" : 1,
+                        "two": 2,
+                        "three": 3,
+                        "four": 4,
+                        "five": 5,
+                        "six": 6,
+                        "seven": 7,
+                        "eight": 8,
+                        "nine": 9,
+                        "ten": 10,
+                        "twenty": 20,
+                        "thirty": 30,
+                        "forty": 40,
+                        "fifty": 50,
+                        "sixty": 60,
+                        "seventy": 70,
+                        "eighty": 80,
+                        "ninety": 90,
+                        "hundred": 100
+                        },
+            "Tuples": {
+                         "single":1,
+                         "double":2,
+                         "triple":3,
+                         "quadruple":4,
+                         "quintuple":5,
+                         "sextuple":6,
+                         "septuple":7,
+                         "octuple":8,
+                         "nonuple":9,
+                         "decuple":10
+                      },
+            "General": {
+                          "C M": "CM",
+                          "P M": "PM",
+                          "D M": "DM",
+                          "A M": "AM"
+                       }
+            }
+    return rules
+
+Remaining rules I will add If you give me time and I have test atleast some not each one but one time I need to test them.
+Thank you.
